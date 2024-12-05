@@ -20,6 +20,7 @@ class Client
     private $_responseBody    = null;
     private $_responseType    = null;
     private $_responseStatus  = null;
+    private $_data = null;
 
     public function __construct()
     {
