@@ -1,5 +1,5 @@
 {
-    "name": "vendus/vendus-sdk-php",
+    "name": "smartmonkey-sl/vendus-sdk-php",
     "type": "library",
     "description": "Vendus SDK for PHP",
     "keywords": ["vendus","sdk","api"],
