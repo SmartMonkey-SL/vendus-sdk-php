@@ -86,4 +86,11 @@ class Endpoint
     {
         return $this->_api->getResponseErrors();
     }
+
+    public function delete($id)
+    {
+        $this->_api->setId($id);
+
+        return $this->_api->delete();
+    }
 }
