@@ -32,9 +32,4 @@ class Api
     {
         return $this->_client->getErrors();
     }
-
-    public function generateSaftFile(array $params)
-    {
-        return $this->client->get('/taxauthority/saft', $params);
-    }
 }
